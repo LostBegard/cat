@@ -129,7 +129,7 @@ def action():
         print '\x1b[1;91m770,750,773,751,771,772,780,781,782,783'
         try:
             c = raw_input('\033[90mChose Number: ')
-            k = '964+"
+            k = '+964'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
